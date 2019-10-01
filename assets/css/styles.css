@@ -1,10 +1,45 @@
 body {
-  background-color: #7692ff;
+  background-color: #f2a359;
   font-family: arial, sans-serif;
 }
 
+.wrapper {
+  background: #fbfbfb;
+  width: 92%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+h1 {
+  margin-bottom: .5em;
+}
+
 h1, h2 {
-  color: #ebbab9;
+  color: #a4031f;
+}
+
+h2 {
+  margin-bottom: .25em;
+  margin-top: .1em;
+}
+
+
+blockquote {
+  border-left: 4px solid #b1a144;
+  padding: 12px;
+  background-color: #d3bcc0;
+  margin-left: 0;
+}
+
+.image {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+.caption {
+  font-style: italic;
+  margin-top: 0;
 }
 
 a {
@@ -14,4 +49,13 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+p {
+  line-height: 1.5em;
 }
