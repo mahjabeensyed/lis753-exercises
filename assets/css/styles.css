@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper {
-  background: #fbfbfb;
+  background-color: #fbfbfb;
   width: 92%;
   max-width: 800px;
   margin: 0 auto;
@@ -58,4 +58,26 @@ ul {
 
 p {
   line-height: 1.5em;
+}
+
+header {
+  background-image: url(../images/floor-tile.png);
+  border-bottom: 3px solid #e18025;
+  text-align: center;
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 15px 20px;
+  border-top: 2px solid #e18025;
+  font-size: small;
+}
+.links {
+  background-color: gray;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
 }
