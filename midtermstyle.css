@@ -1,0 +1,56 @@
+body {
+  background-color: #4e1e29;
+  font-family: arial, sans-serif;
+}
+
+.wrapper {
+  background-color: #b7f0ad;
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+h1 {
+  margin-bottom: .5em;
+  color: #5e323c;
+}
+
+.image {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+.caption {
+  font-style: italic;
+  font-size: small;
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+header {
+  background-image: url(../images/leaves.png);
+  border-bottom: 3px solid #515052;
+  text-align: center;
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 10px 20px;
+  border-top: 2px solid #515052;
+  font-size: small;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
+}
