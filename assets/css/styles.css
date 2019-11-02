@@ -19,8 +19,8 @@ h1 {
   margin-bottom: .5em;
 }
 
-h1, h2 {
-  color: #a4031f;
+h1#page-title {
+  margin: 0;
 }
 
 h2 {
@@ -28,6 +28,9 @@ h2 {
   margin-top: .1em;
 }
 
+h1, h2 {
+  color: #a4031f;
+}
 
 blockquote {
   border-left: 4px solid #b1a144;
@@ -37,7 +40,6 @@ blockquote {
 }
 
 .image {
-  text-align: center;
   margin: 1.5em 0;
 }
 
@@ -70,29 +72,31 @@ header {
   text-align: center;
 }
 
+header.wrapper {
+  padding: 26px 20px;
+}
+
 footer.wrapper {
   text-align: center;
   padding: 15px 20px;
   border-top: 2px solid #e18025;
   font-size: small;
 }
+
+article {
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
 .links {
-  background-color: gray;
+  background-color: #d3bcc0;
 }
 
 @media all and (min-width: 920px) {
-  article, aside {
-  float: left;
-}
 
-article {
-  width: 75%;
-  padding-right: 20px;
-}
-
-aside {
-  width: 25%;
-  }
   aside h2:first-child {
     margin-top: 14px;
   }
